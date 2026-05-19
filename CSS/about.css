@@ -99,7 +99,7 @@ body {
 
 .a_main1 {
     margin-top: 70px;
-    margin-left: 205px;
+    margin-left: 350px;
 }
 
 .l1 {
@@ -129,12 +129,13 @@ body {
 
 .a_sub {
     display: flex;
+    margin-top: 10px;
 }
 
 .a_sub1 {
     border: 0.8px solid rgb(240, 240, 240);
     border-radius: 3px;
-    margin-left: 124px;
+    margin-left: 185px;
     margin-top: 30px;
     width: 250px;
 }
@@ -175,8 +176,8 @@ body {
     border: 0.8px solid rgb(240, 240, 240);
     border-radius: 5px;
     display: flex;
-    margin-top: 30PX;
-    margin-left: 125px;
+    margin-top: 40PX;
+    margin-left: 225px;
     margin-bottom: 40px;
     width: 997px;
     height: 150px;

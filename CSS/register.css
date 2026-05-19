@@ -100,11 +100,11 @@ body {
 }
 
 .login {
-    margin-top: 25px;
+    margin-top: 55px;
     display: flex;
     border: 1px solid rgb(218, 218, 218);
     width: 770px;
-    margin-left: 215px;
+    margin-left: 380px;
     height: 560px;
     border-radius: 6px;
     margin-bottom: 50px;
