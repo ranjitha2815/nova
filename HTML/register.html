@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../CSS/register.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav1">
+            <a href="#" class="NovaCart"><b>NovaCart</b></a>
+            <a href="#" class="Shop">Shop</a>
+            <a href="#" class="About">About</a>
+        </div>
+        <div class="nav2">
+            <button class="nlb" id="l">Login</button>
+            <button class="nrb" id="r">Register</button>
+        </div>
+    </nav>
+    <section class="login">
+        <div class="login1">
+            <p class="l1">JOIN NOVACART</p>
+            <p class="l2"><b>Create an account with <br>practical validation and <br>secure local hashing.<b></b></p>
+            <p class="l1">This front-end demo users browser storage, suitable for <br>showcasing UI and JavaScript flow.</p>
+        </div>
+        <div class="login2">
+            <form id="registerForm" method="get" onsubmit="reg">
+                <h3>Create account</h3>
+                <p>Use Strog password to register</p>
+                <label for="name">Full name</label><br>
+                <input type="text" id="name" class="name" name="name"><br>
+                <label for="email">Email address</label><br>
+                <input type="email" id="email" class="email" name="email"><br>
+                <label for="password">Password</label><br>
+                <input type="password" class="password" id="pass" name="password"><br>
+                <span class="span1">Minimum 8 characters with uppercase, lowercase, number, and symbol</span><br><br>
+                <label for="conpass">Comfirm password</label><br>
+                <input type="password" class="conpass" id="conpass" name="conpass"><br>
+                <div class="rc">
+                    <div class="rem">
+                        <input type="checkbox" id="check" class="checkbox">
+                        <span class="span2">I agree to the NovaCart account terms</span>
+                    </div>
+                </div>
+                <button class="login_btn" type="submit">Create account</button><br>
+                <span class="span3">Already register?</span>
+                <a href="login.html" class="l_link">Login</a>
+            </form>
+        </div>
+    </section>
+    <script src="../JS/register.js"></script>
+</body>
+
+</html>
